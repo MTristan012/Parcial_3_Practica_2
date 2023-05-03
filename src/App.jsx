@@ -24,13 +24,13 @@ function App() {
             </button>
 
             <input type="search" />
-            <button className="rounded-circle btn bg-danger bg-opacity-75">
+            <button className="rounded-circle btn">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                width="16"
-                height="16"
+                width="40"
+                height="40"
                 fill="#c70000"
-                className="bi bi-mic-fill"
+                className="bi bi-mic-fill rounded-circle bg-danger bg-opacity-75 p-2"
                 viewBox="0 0 15 15"
               >
                 <path d="M5 3a3 3 0 0 1 6 0v5a3 3 0 0 1-6 0V3z" />
