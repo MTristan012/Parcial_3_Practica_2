@@ -4,7 +4,18 @@
   padding: 2rem;
   text-align: center;
 }
-
+ul{
+ list-style: none;
+ margin-top: 0.8rem;
+ padding: 0;
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ gap: 4rem;
+}
+a{
+  box-shadow: .1rem .1rem #8ab4c1;
+}
 .cover {
  height: 100vh;
  width: 100%;
@@ -58,4 +69,7 @@ input[type="search"] {
  }
  .flex-form > * {
  font-size: 0.9rem;
+ }
+ ul{
+  gap: 1rem
  }
