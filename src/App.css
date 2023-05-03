@@ -5,6 +5,9 @@
   text-align: center;
   background-color: rgb(147, 196, 211)
 }
+body{
+  background-color: rgb(147, 196, 211)
+}
 ul{
  list-style: none;
  margin-top: 0.8rem;
@@ -58,7 +61,7 @@ input[type="search"] {
  padding: 25px 100px;
  color: rgb(0,0,0);
 }
-@media all and (max-width:800px) {
+@media all and (max-width:1800px) {
  body {
  font-size: 0.9rem;
  }
@@ -74,3 +77,4 @@ input[type="search"] {
  ul{
   gap: 1rem
  }
+}
